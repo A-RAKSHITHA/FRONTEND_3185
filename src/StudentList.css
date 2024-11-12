@@ -1,0 +1,113 @@
+/* Main container styling */
+.student-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px #e0f7fa;
+  }
+  
+  /* Form styling */
+  input {
+    display: block;
+    width: 320px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #f1f8e9;
+  }
+  
+  button {
+    padding: 10px 25px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Card styling for each student */
+  .student-card {
+    background-color: #e0f7fa;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+  }
+  
+  .student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #00796b;
+  }
+  
+  .student-card p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Button styling inside the card */
+  .card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .card-buttons button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-buttons .edit-btn {
+    background-color:#e57373;
+    color: white;
+  }
+  
+  .card-buttons .delete-btn {
+    background-color: #e57373;
+    color: white;
+  }
+  
+  .card-buttons .edit-btn:hover {
+    background-color: #e57373;
+  }
+  
+  .card-buttons .delete-btn:hover {
+    background-color: #ef5350;
+  }
+  
